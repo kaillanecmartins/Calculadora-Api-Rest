@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MathSubtracao {
 	@GetMapping("/subtracao/{num1}/{num2}")
 	
-	public Double soma(
+	public Double subtracao(
 			@PathVariable(value = "num1") String num1Str,
 			@PathVariable(value = "num2") String num2Str
 		) throws Exception{

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MathDivisao {
    @GetMapping("/divisao/{num1}/{num2}")
 	
-	public Double soma(
+	public Double divisao(
 			@PathVariable(value = "num1") String num1Str,
 			@PathVariable(value = "num2") String num2Str
 		) throws Exception{
